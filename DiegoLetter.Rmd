@@ -1,0 +1,67 @@
+---
+title: ''
+author: ''
+date: ''
+output:
+  bookdown::pdf_document2:                 ## pdf_document:
+    fig_caption: yes
+    latex_engine: xelatex
+    toc: false
+  word_document: default
+fontsize: 20pt
+header-includes: 
+  - \usepackage{fontawesome5}
+  - \usepackage{graphicx}
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}                                      ## header/footer logo
+  - \pagestyle{fancy}           
+  - \setlength{\headheight}{40pt}                        ## More space between line and text
+  - \addtolength{\topmargin}{-20pt}                      ## trying to pull text up (vertically)
+  - \rhead{\includegraphics[width = .1\textwidth]{erg2.png}}                  ## header
+  - \lhead{May 30, 2024}
+  - \lfoot{\includegraphics[width = .15\textwidth]{erg2.png}}            ## footer
+---
+\large
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\rightline{e{\faRProject}g}
+\rightline{Survey Reports}
+\rightline{\href{www.ergreports.com}{www.ergreports.com}}
+Dear selection committee,
+
+I am writing in support of Diego Figueiras' application for the *Measurement Scientist* position at ETS. Diego was an advisee and student of mine while he was enrolled within Montclair State University’s I/O Psychology PhD program. I have since left academia, however, Diego has continued to collaborate with me on projects -- all of which, to some degree, involve issues of measurement. He was formally my research assistant for one academic year. In total, I have known him roughly five years. 
+
+Diego’s currently working with me on many projects –- only two of which I mention below, but I would be happy to discuss other projects in greater detail if any ETS representative would like to do so. Diego has continued to work on each of these projects out of personal interest (in topics of measurement) as well as an inherent desire to learn. He has had very broad exposure to many different topics and applications, but his passion and strongest talent is likely scripting (`R` and `Python`). He took very quickly to `R` in particular and approached projects handed to him as learning opportunities (rather than simple applications of what he had been taught). He is now at the level of teaching me (and others) new `R` techniques and applications, which speaks to his growth.
+
+Regarding project specifics, I will speak to two that are somewhat atypical of PhD student projects (because they are not focused on publication). Diego has maintained interest and participation in these projects because they serve as opportunities to learn and apply "new ideas". One project involves the construction of representative visualizations of the classical test theory item difficulty and discrimination indices (e.g., p-values and corrected item-total correlations). Diego has taken the lead on this project and we actually have been grateful to ETS for sharing test data that has helped in the validation of the procedure! 
+
+The other project is a weekly virtual "workshop" focused on the topic of *authoring* via statistical coding (e.g., Markdown, \LaTeX, Quarto, etc.). I mention this rather unusual "project" because Diego has taken initiative with it, and I have seen him develop more leadership and presentation skills. 
+
+Diego is very intelligent, curious, and capable of clever problem-solving. -- he proactively seeks out opportunities to further his knowledge and skill levels, and should be given full consideration for your described *Measrement Scientist* position. I recommend his application without reservation. 
+
+Please feel free to contact me if you have any questions regarding his candidacy.
+
+Regards, 
+\newline
+
+
+\begin{multicols}{3}
+John Kulas, Ph.D.  \\
+President, \href{www.ergreports.com}{e{\faRProject}g}  \\
+Minneapolis, MN 55421 \\
+\href{mailto:jtkulas@ergreports.com}{jtkulas@ergreports.com} \newline
+(651) 216-3353 \\
+
+\columnbreak
+
+\columnbreak
+
+Formerly  \\
+Professor, I/O Psychology  \\
+Montclair State University  \\
+Montclair, NJ 07043 \\
+\end{multicols}
+
+
